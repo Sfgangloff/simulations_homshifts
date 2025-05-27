@@ -43,14 +43,16 @@ This creates the double triangle graph, initializes the array using generate_ini
 
 ## File Structure
 
-your_project/
-├── main.py                  # Main script: simulation loop and visualization
-├── patterns.py              # Contains `generate_initial_array`, `mutate_array`
-├── vizualisation.py         # Contains `initialize_heatmap`, `update_heatmap`
-├── tests/
-│   └── test_patterns.py     # Unit tests
-└── README.md
+```text 
+simulations_homshifts/ 
 
+├── main.py # Main script: simulation loop and visualization 
+├── patterns.py # Contains `generate_initial_array`, `mutate_array` 
+├── vizualisation.py # Contains `initialize_heatmap`, `update_heatmap` 
+├── tests/ 
+│ └── test_patterns.py # Unit tests 
+└── README.md 
+```
 
 ## Testing
 
